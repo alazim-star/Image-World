@@ -15,6 +15,7 @@ body{
     padding-top: 20px;
     
 }
+
 .navbar{
     height: 12%;
     display: flex;
@@ -68,7 +69,7 @@ padding: 20px;
     font-size: 13px;
     width: 200px;
     height: 3px;
-    border-radius: 40px;
+    border-radius: 5px;
     border: none;
 
 }
@@ -114,7 +115,7 @@ padding: 20px;
     width: 200px;
     margin-top: 150px;
     text-align: center;
-    color: red;
+    color:#c93508;
     border-radius: 10px;
     border: 1.5px solid red;
     height: 22px;
@@ -135,18 +136,18 @@ padding: 20px;
     font-style: italic;
 
 }
-/* 3rd section  */
+/* website name*/
 .col-3{
     flex-basis: 50%;
 
 
 }
 .col-3 h1{
-    color: red;
+    color: #c93508;
     font-size: 55px;
 }
 .col-3 h5{
-    color:white;
+    color:rgb(113, 157, 168);
     text-align: center;
     font-size: 20px;
     padding: 20px;
@@ -171,18 +172,215 @@ padding: 20px;
     background-image: url(/image/Group.png);
 
 }
+/* Choice your logo  */
+.container{
+    margin-top: 50px;
+    
 
-/* 4th section  */
+}
+.sub-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding-bottom: 20px;
+
+    
+
+}
+
+.sub-container h3{
+    color: #c93508;
+    
+
+}
+.sub-container p{
+    color:  rgb(113, 157, 168);
+
+}
+/* search and popular button */
+.search-box-un{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+/*login-from  */
+.login-from{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+   
+    
+}
+.login-from hr {
+    width: 250px;
+
+
+}
+
 .input-item{
     flex-basis: 50%;
+    padding: 20px;
 
 }
 .login-from h2{
-    color: white;
-  align-items: center;
+    color: #c93508;
 
 }
 .login-from h4{
-    color: white;
+    color: rgb(113, 157, 168);
 
 }
+.input-item label{
+    color: rgb(184, 234, 247);
+ font-size: 15px;
+
+
+}
+.input-item input{
+    color: #c93508;
+    border-radius: 20px;
+    text-align: center;
+    width: 180px;
+    height: 28px;
+    padding: 5px;
+    margin-top: 20px ;
+    display: flex;
+}
+
+/* Create Your Account */
+.Sing-up-container {
+    /* display: flex; */
+
+
+}
+
+.input-item-2 input{
+    color: #c93508;
+    border-radius: 20px;
+    text-align: center;
+    width: 180px;
+    height: 28px;
+    padding: 5px;
+    margin-top: 20px ;
+
+
+}
+.input-item-2 label{
+    color: rgb(184, 234, 247);
+    font-size: 15px;
+    display: flex;
+    justify-content:left;
+
+   
+}
+.rest{
+    padding: 30px;
+    margin-bottom: 10px;
+}
+ 
+ /* Footer  */
+ footer {
+    background-color:rgb(1,5,17);
+    color: white;
+    bottom: 0;
+  width: 100%;
+    font-size: 16px;
+ 
+    box-sizing: border-box;
+  }
+
+
+ 
+ .row {
+    padding: 5em 1em;
+    margin-top: 50px;
+  
+  
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 1em; */
+    min-height: 50px;
+  }
+  h3 {
+  
+
+    color: #c93508;
+    font-size: 1.4em;
+    /* white-space: nowrap; */
+  }
+  .ul-footer {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color:#cc9a12;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+    color: #bac6d9;
+  }
+  footer input,button{
+    font-size: 1em;
+    padding: 1em;
+    width: 300px;
+
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #cc9a12;
+    color: #ffffff;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    flex-direction: row;
+    margin-top: 1 em;
+  }
+  
+  /* fhcdkjfhdhfdfh */
+  .copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+  }
+  .footer-menu{
+    float: left; */
+margin-top: 10px;
+  }
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+  }
+  .footer-menu a:hover, .social i:hover{
+    color: #c7940a;
+  }
+  .copyright p {
+    font-size: .9rem;
+    text-align: center;
+  }
+  
