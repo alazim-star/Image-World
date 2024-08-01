@@ -276,10 +276,7 @@ padding: 20px;
 
    
 }
-.rest{
-    padding: 30px;
-    margin-bottom: 10px;
-}
+
  
  /* Footer  */
  footer {
@@ -361,15 +358,16 @@ padding: 20px;
     flex-direction: row;
     margin-top: 1 em;
   }
+
   
-  /* fhcdkjfhdhfdfh */
+  /* copy right section */
   .copyright {
     padding: 0.3em 1em;
     background-color: #25262e;
   }
   .footer-menu{
-    float: left; */
-margin-top: 10px;
+    float: left;
+
   }
   .footer-menu a{
     color: #cfd2d6;
