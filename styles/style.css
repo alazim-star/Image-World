@@ -13,8 +13,10 @@ body{
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 20px;
-    
+    background-position: left;
+    position: relative;
 }
+/* nav section  */
 
 .navbar{
     height: 12%;
@@ -73,10 +75,8 @@ padding: 20px;
     border: none;
 
 }
-/* second-part */
+/*4 image row */
 
-
-    
 .image{
     transition: transform 0.5s;
     width: 200px;
@@ -90,9 +90,9 @@ padding: 20px;
     background-position: center;
     background-size: cover;
    
-   
     
 }
+
 .card-1{
     background-image: url(/image/flower.jpeg)
     
@@ -171,10 +171,13 @@ padding: 20px;
 .sec-card-4{
     background-image: url(/image/Group.png);
 
+
 }
-/* Choice your logo  */
+
+/*  Logo imag-section */
 .container{
     margin-top: 50px;
+   background-color: #010511a9;
     
 
 }
@@ -211,8 +214,19 @@ padding: 20px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
+  
    
     
+}
+.input-item{
+    background-color: #e46f0f2c;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* height: 500px; */
+    
+
 }
 .login-from hr {
     width: 250px;
@@ -251,11 +265,6 @@ padding: 20px;
 }
 
 /* Create Your Account */
-.Sing-up-container {
-    /* display: flex; */
-
-
-}
 
 .input-item-2 input{
     color: #c93508;
@@ -280,11 +289,12 @@ padding: 20px;
  
  /* Footer  */
  footer {
-    background-color:rgb(1,5,17);
+    background-color:#010511a9;
     color: white;
     bottom: 0;
   width: 100%;
     font-size: 16px;
+    height: 400px;
  
     box-sizing: border-box;
   }
@@ -294,7 +304,7 @@ padding: 20px;
  .row {
     padding: 5em 1em;
     margin-top: 50px;
-  
+    
   
   }
   .row.primary {
@@ -310,11 +320,9 @@ padding: 20px;
     min-height: 50px;
   }
   h3 {
-  
-
     color: #c93508;
     font-size: 1.4em;
-    /* white-space: nowrap; */
+  
   }
   .ul-footer {
     list-style: none;
@@ -354,19 +362,18 @@ padding: 20px;
   div.social {
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 1rem;
     flex-direction: row;
-    margin-top: 1 em;
+
   }
 
-  
   /* copy right section */
   .copyright {
     padding: 0.3em 1em;
-    background-color: #25262e;
   }
   .footer-menu{
     float: left;
+    margin-bottom: 50px;
 
   }
   .footer-menu a{
@@ -374,11 +381,14 @@ padding: 20px;
     padding: 6px;
     text-decoration: none;
   }
-  .footer-menu a:hover, .social i:hover{
+  .footer-menu a:hover, .social :hover{
     color: #c7940a;
   }
   .copyright p {
     font-size: .9rem;
     text-align: center;
   }
-  
+  .discount{
+    position: absolute;
+}
+  /* end  */
